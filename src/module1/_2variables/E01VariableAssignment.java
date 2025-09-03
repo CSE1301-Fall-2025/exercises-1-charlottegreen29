@@ -5,18 +5,18 @@ public class E01VariableAssignment {
 	//by changing the variable assignment statement
 	public static void main(String[] args) {
 		int score;
-		score = 4;
+		score = 5;
 		System.out.println(score);
 
-		double price = 23.25;
+		double price = 23.26;
 		System.out.println(price);
 
-		boolean won = false;
+		boolean won = true;
 		System.out.println(won);
-		won = true;
+		won = false;
 		System.out.println(won);
 
-		String name = "Jose";
+		String name = "Ally";
 		System.out.println(name);
 	}
 }
