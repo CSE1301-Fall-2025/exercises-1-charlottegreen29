@@ -16,5 +16,11 @@ public class E01ShortcutOperators {
 		int penalty = 5;
 		score -= penalty/2;
 		System.out.println(score);
+		score+=1;
+		System.out.println(score);
+		score++;
+		System.out.println(score);
+		score--;
+		System.out.println(score);
 	}
 }
