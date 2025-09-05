@@ -6,12 +6,12 @@ public class E04BooleanExpressions {
 		boolean hasMoney = false;
 
 		// Will these print true or false?
-		System.out.println( isRaining );
-		System.out.println( !isRaining );
-		System.out.println( hasMoney );
-		System.out.println( !hasMoney );
-		System.out.println( 5 == 7 );
-		System.out.println( !(5 == 7) );
+		System.out.println( isRaining ); //true
+		System.out.println( !isRaining ); //false
+		System.out.println( hasMoney ); //false
+		System.out.println( !hasMoney ); //true
+		System.out.println( 5 == 7 ); //false
+		System.out.println( !(5 == 7) ); //true
 
 	}
 }

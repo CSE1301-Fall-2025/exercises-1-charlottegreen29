@@ -7,9 +7,9 @@ public class E02RelationalOperators {
 		int age = 15;
 		int year = 14;
 		// Will these print true or false?
-		System.out.println( age < year );
-		System.out.println( age > year );
-		System.out.println( age <= year+1 );
-		System.out.println( age-1 >= year );
+		System.out.println( age < year ); //guess: false
+		System.out.println( age > year ); //guess: true
+		System.out.println( age <= year+1 ); //guess: true
+		System.out.println( age-1 >= year ); //guess: true
 	}
 }
