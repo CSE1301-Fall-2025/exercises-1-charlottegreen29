@@ -8,8 +8,10 @@ public class E05OperatorExample {
 		System.out.println(2 + 3);
 		System.out.println(2 - 3);
 		System.out.println(2 * 3);
-		System.out.println(2 / 3);
+		System.out.println(2 / 3); // 2/3=0.5, and it automatically rounds down because they're both integers.
 		System.out.println(2 == 3);
 		System.out.println(2 != 3);
+		System.out.println(25%3);
+		System.out.println(2 / 0);
 	}
 }
