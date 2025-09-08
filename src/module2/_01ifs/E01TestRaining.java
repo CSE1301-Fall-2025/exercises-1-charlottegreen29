@@ -6,7 +6,7 @@ public class E01TestRaining {
 	//sure that you understand what is happening with this code example
 	public static void main(String[] args) {
 		boolean isRaining = true;
-		if (isRaining) {
+		if (!isRaining) {
 			System.out.println("Take an umbrella!");
 		}
 		System.out.println("Drive carefully");
