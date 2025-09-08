@@ -5,12 +5,15 @@ public class E04DanglingElseTest {
 	//and see that it does not work properly. Add {} to the code
 	//so that it does function properly.
 	public static void main(String[] args) {
-		boolean sunny = true;
-		boolean hot = false;
-		if (sunny)
+		boolean sunny = false;
+		boolean hot = true;
+		if (sunny){
 			if (hot)
 				System.out.println("Head for the beach!");
-		else // Which if is else attached to??
+		}
+		else // Which if is else attached to?? 
 			System.out.println("Bring your umbrella!");
 	}
 }
+
+// Turns out I just needed extra curly brackets around the second if statement.
