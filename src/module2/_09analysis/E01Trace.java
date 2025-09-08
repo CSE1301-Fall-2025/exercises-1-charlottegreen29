@@ -8,9 +8,16 @@ public class E01Trace {
         int var1 = 3;
         int var2 = 2;
 
+        System.out.println("var1: " + var1);
+        System.out.println("var2: " + var2);
+        System.out.println();
+
         while ((var2 != 0) && ((var1 / var2) >= 0)) {
             var1 = var1 + 1;
             var2 = var2 - 1;
+            System.out.println("var1: " + var1);
+            System.out.println("var2: " + var2);
+            System.out.println();
         }
     }
 }
