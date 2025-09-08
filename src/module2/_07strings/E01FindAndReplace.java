@@ -3,13 +3,14 @@ package module2._07strings;
 public class E01FindAndReplace {
 
 	//Exercise 1: After running this program to understand how it works,
-	//modify it to add a counter that counts the number of 1's that have been
+	//modify it to add a counter that counts the number of 1s that have been
 	//replaced. 
 	public static void main(String[] args) {
 		String message = "Have a 1ong and happy 1ife";
 		int index = 0;
+		int count = 0;
 
-		// while more 1's in the message
+		// while more 1s in the message
 		while (message.indexOf("1") >= 0) {
 			// Find the next index for 1
 			index = message.indexOf("1");
@@ -20,7 +21,9 @@ public class E01FindAndReplace {
 			message = firstpart + "l" + lastpart;
 			System.out.println("Replaced 1 with l at index " + index);
 			System.out.println("The message is currently " + message + " but we aren't done looping yet!");
+			count++;
 		}
+		System.out.println("There were " + count + " 1s in the message.");
 		System.out.println("Cleaned text: " + message);
 	}
 }
