@@ -9,8 +9,8 @@ public class E02TwoDArraySet {
 		String[][] seatingChart;
 
 		// create arrays
-		ticketInfo = new int [2][3];
-		seatingChart =  new String [3][2];
+		ticketInfo = new int [3][3];
+		seatingChart =  new String [4][2];
 
 		// initialize the array elements
 		ticketInfo[0][0] = 15;
@@ -31,4 +31,9 @@ public class E02TwoDArraySet {
 		System.out.println(seatingChart);
 	}
 }
+
+// yeah running it doesn't actually print the information; it's just some kind of seemlingly random code 
+// that probably represents the array location or something
+
+// Also I added another row to each array but didn't set any values, so they'll just be 0s.
 
