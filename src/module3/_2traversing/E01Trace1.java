@@ -13,3 +13,5 @@ public class E01Trace1 {
 	}
 }
 
+// lol i literally just did this on my own
+// it will print all of the names, each on its own line

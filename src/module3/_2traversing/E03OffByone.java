@@ -7,7 +7,7 @@ public class E03OffByone {
 	public static void main(String[] args) {
 		int[] scores = { 10, 9, 8, 7};
 		// Make this loop print out all the scores!
-		for (int i = 1; i <= scores.length; i++) {
+		for (int i = 0; i < scores.length; i++) {  //I fixed it by changing the i=1 to i=0 and the <= to a <
 			System.out.println(  scores[i] );
 		}
 	}
