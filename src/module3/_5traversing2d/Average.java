@@ -16,3 +16,4 @@ public class Average {
 	}
 }
 
+// it averages just like the other one does, just with a different formatting.

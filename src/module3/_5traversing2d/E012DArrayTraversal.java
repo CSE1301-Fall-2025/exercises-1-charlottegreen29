@@ -18,3 +18,4 @@ public class E012DArrayTraversal {
 	}
 }
 
+// this code is finding the average value of all the values in the array!

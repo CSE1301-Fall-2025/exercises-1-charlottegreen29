@@ -13,3 +13,4 @@ public class E02ColumnMajorTraversal {
 	}
 }
 
+// it prints out all of the values in column row order instead of row column order
